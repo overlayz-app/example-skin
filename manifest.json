@@ -1,0 +1,77 @@
+{
+  "type": "skin",
+  "version": "1.0.0",
+  "name": "Minimal White",
+  "description": "A minimalistic white skin, perfect for a clean look, and easy on the eyes",
+  "tags": [
+    "solid-colors"
+  ],
+  "thumbnail": "https://www.datocms-assets.com/148613/1738157142-minimal-white.png",
+  "items": [
+    "assets/icon-pack",
+    "assets/typeface",
+    "assets/wallpaper"
+  ],
+  "config": {
+    "globals": {
+      "background": {
+        "type": "solid",
+        "color": "#ffffff"
+      },
+      "buttons": {
+        "values": [{
+          "scheme": "dark",
+          "background": {
+            "type": "solid",
+            "color": "#FFFFFF"
+          },
+          "text": {
+            "align": "middle",
+            "size": "md",
+            "hide": false
+          }
+        }, {
+          "scheme": "light",
+          "background": {
+            "type": "solid",
+            "color": "#000000"
+          },
+          "text": {
+            "align": "middle",
+            "size": "md",
+            "hide": false
+          }
+        }]
+      },
+      "widgets": {
+        "scheme": "dark",
+        "background": {
+          "type": "gradient",
+          "colors": [
+            {
+              "color": "#FFFFFF",
+              "position": 0
+            },
+            {
+              "color": "#FFFFFF",
+              "position": 1
+            }
+          ]
+        }
+      }
+    },
+    "overrides": {
+      "app.overdeck.obs-toggle-source": {
+        "type": "button",
+        "scheme": "light",
+        "background": {
+          "type": "solid",
+          "color": "#000000"
+        },
+        "icon": {
+          "hide": true
+        }
+      }
+    }
+  }
+}
