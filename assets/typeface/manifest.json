@@ -1,0 +1,8 @@
+{
+    "type": "typeface",
+    "name": "Minimal White - Typeface",
+    "assets": {
+        "Satoshi Regular": "./Satoshi-Regular.otf",
+        "Satoshi Light Itallic": "./Satoshi-LightItalic.otf"
+    }
+}
