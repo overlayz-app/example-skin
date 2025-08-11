@@ -47,7 +47,7 @@
         "scheme": "dark",
         "background": {
           "type": "gradient",
-          "colors": [
+          "stops": [
             {
               "color": "#FFFFFF",
               "position": 0
